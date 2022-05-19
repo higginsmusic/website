@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Source+Code+Pro:ital,wght@0,600;1,500&display=swap");
+
+html {
+  background-color: rgba(230, 221, 210, 0.808);
+}
+
+header {
+  padding: 0.5rem 0 1rem 0;
+  background-color: rgb(230, 210, 185);
+}
+
+h1 {
+  color: rgb(95, 211, 195);
+  text-align: center;
+}
+
+.mmm {
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.hm {
+  font-family: "Source Code Pro", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
