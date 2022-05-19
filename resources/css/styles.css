@@ -7,12 +7,20 @@ html {
 
 header {
   padding: 0.5rem 0 1rem 0;
-  background-color: rgb(230, 210, 185);
+  background-color: rgb(187, 242, 252);
 }
 
 h1 {
-  color: rgb(95, 211, 195);
+  color: rgb(5, 211, 195);
   text-align: center;
+}
+
+h1.mmm {
+  font-size: 3.5rem;
+}
+
+h1.hm {
+  font-size: 3.5rem;
 }
 
 .mmm {
@@ -24,26 +32,63 @@ h1 {
 }
 
 #MMMlogo {
-  height: 9rem;
+  height: 18rem;
   width: auto;
+  padding: 10px 10px;
 }
 
 #HMportrait {
-  height: 9rem;
+  height: 24rem;
   width: auto;
+  padding: 10px 10px;
 }
 
 .sect {
-  width: 75%;
   text-align: center;
 }
 
 .sect-text {
-  width: 50%;
+  padding: 10px 60px 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+  background-color: cornsilk;
+}
+
+.player {
+  padding: 15px 0 20px;
+  background-color: darkolivegreen;
+}
+
+.contact {
+  padding: 15px 0 25px;
+  background-color: rgb(179, 179, 179);
+}
+
+.links {
+  background-color: cornsilk;
+  padding: 15px 0 10px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: blue;
+}
+
+#reverbnation {
+  color: red;
+}
+
+#twitter {
+  color: rgb(29, 161, 242);
+}
+
+#facebook {
+  color: rgb(59, 89, 152);
+}
+#youtube {
+  color: rgb(255, 0, 0);
+}
+
+#github {
+  color: black;
 }
