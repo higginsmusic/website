@@ -2,25 +2,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap");
 
 html {
-  background-color: rgba(230, 221, 210, 0.808);
+  background-color: rgba(250, 242, 232, 0.808);
 }
 
 header {
   padding: 0.5rem 0 1rem 0;
-  background-color: rgb(187, 242, 252);
+  background-color: rgb(219, 250, 255);
 }
 
 h1 {
   color: rgb(5, 211, 195);
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1.mmm {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 h1.hm {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 .mmm {
@@ -32,7 +34,7 @@ h1.hm {
 }
 
 #MMMlogo {
-  height: 18rem;
+  height: 12rem;
   width: auto;
   padding: 10px 10px;
 }
@@ -44,19 +46,31 @@ h1.hm {
 }
 
 .sect {
+  width: 60%;
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .sect-text {
-  padding: 10px 60px 15px;
+  padding: 3rem 100px 2rem 100px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
-  background-color: cornsilk;
+  background-color: rgb(255, 253, 244);
+}
+
+.sect-title {
+  font-size: 3.7rem;
 }
 
 .player {
+  width: 500px;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px 0 20px;
   background-color: darkolivegreen;
+  color: rgb(255, 233, 185);
 }
 
 .contact {
@@ -64,14 +78,19 @@ h1.hm {
   background-color: rgb(179, 179, 179);
 }
 
+.email {
+  font-size: 2rem;
+}
+
 .links {
   background-color: cornsilk;
-  padding: 15px 0 10px;
+  padding: 5px 0 10px;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
   text-decoration: none;
+  padding: 0 10px;
 }
 
 #reverbnation {
