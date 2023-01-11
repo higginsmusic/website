@@ -8,6 +8,15 @@ html {
 header {
   padding: 0.5rem 0 1rem 0;
   background-color: rgb(219, 250, 255);
+  margin-bottom: 16rem;
+}
+
+body {
+  background-image: url(../pics/mwa.png);
+  background-attachment: fixed;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-color: bisque;
 }
 
 h1 {
@@ -34,9 +43,9 @@ h1.hm {
 }
 
 #MMMlogo {
-  height: 12rem;
+  height: 16rem;
   width: auto;
-  padding: 10px 10px;
+  padding: 5px 5px;
 }
 
 #HMportrait {
@@ -56,16 +65,25 @@ h1.hm {
   padding: 3rem 100px 2rem 100px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.2rem;
-  background-color: rgb(255, 253, 244);
+  background-color: rgba(255, 253, 244, 0.452);
+}
+
+.sect-text p {
+  margin: 2.5rem;
 }
 
 .sect-title {
   font-size: 3.7rem;
 }
 
+.player-box {
+  border-color: rgba(25, 40, 71, 0.671);
+  border-style: outset;
+}
+
 .player {
   width: 500px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
   padding: 15px 0 20px;
@@ -79,7 +97,7 @@ h1.hm {
 }
 
 .email {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .links {
